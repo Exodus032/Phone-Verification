@@ -35,7 +35,7 @@ def passw():
 def test():
 	plainIO = input("passw\n:")
 	f = open("codes.FAT", "r")
-	encryptedIO = hashlib.md5(encryptedIO.encode())
+	encryptedIO = hashlib.md5(plainIO.encode())
 	encryptedIO = str(encryptedIO.hexdigest())
 	time = timeChunk()
 	encryptedIO = encryptedIO + str(time)
