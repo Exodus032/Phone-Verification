@@ -1,0 +1,2 @@
+-Need a twilio account to use this program
+-need to edit the SID, auth token and the from number
